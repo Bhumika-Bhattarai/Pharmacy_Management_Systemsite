@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(150, 172, 174);
+    /* background-image: url("/images/pharmacy.jpg"); */
+}
+.form {
+    background-color: white;
+    width: 50;
+    margin:160px;
+    padding: 60px;
+    box-shadow: 10px 10px 5px rgb(19, 41, 138);
+    border: 6px;
+}
+#submit{
+    color: pink;
+    background-color: rgb(105,15,190);
+    padding: 10px;
+    border-radius: 10px;
+
+}
+@media screen and (max-width: 700px){
+    .form{
+    width:70%;
+    padding: 40px;
+    }
+}
+    
+
